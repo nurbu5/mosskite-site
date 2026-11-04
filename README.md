@@ -5,7 +5,7 @@ Static website for Mosskite Games, operated by Mosskite LLC. Publish the reposit
 ## Before app review
 
 - Replace the **support email placeholder** on `support.html` and `privacy.html` with a working, monitored mailbox. Test game questions and score removal requests.
-- Choose and purchase the **custom domain**. Add it in GitHub Pages, create its DNS records, add a matching `CNAME` file here, and enforce HTTPS after the certificate is ready. Verify ownership in the organization's GitHub Pages settings and Google Search Console account. No domain is configured yet.
+- Choose and purchase the **custom domain**. Add it in GitHub Pages, create its DNS records, add a matching `CNAME` file here, and enforce HTTPS after the certificate is ready. Verify it under the GitHub Pages repository owner (currently the personal `nurbu5` account) and in the organization's Google Search Console account. If the repository moves to a GitHub organization, verify it under that organization after the move. No domain is configured yet.
 - Update `privacy.html` against each released game's actual behavior. Name the ad and analytics SDKs, purchase provider, leaderboard provider, other third parties, data collected, purposes, retention, security, and deletion process. Match the app and store disclosures.
 - If a game adds accounts, provide external and in-app account deletion before submission. For a nickname-only leaderboard, offer score removal through support.
 - After deployment, test home, support, and privacy over HTTPS without signing in, on mobile and desktop. Test keyboard navigation and public links.
